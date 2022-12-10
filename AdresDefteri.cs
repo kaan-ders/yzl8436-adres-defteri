@@ -41,6 +41,12 @@ namespace AdresDefteri
             return false;
         }
 
+        //SOLID -> Yanlış
+        public void MusteriDogruMu(Kisi kisi)
+        {
+            //kisiyi düzenleme
+        }
+
         public void Sil(string aranacak)
         {
             for (int i = 0; i < Liste.Count; i++)
