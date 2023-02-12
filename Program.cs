@@ -72,7 +72,7 @@ namespace AdresDefteri
                     kisiSecim = Console.ReadLine();
                     bool sonuc = false;
 
-                    if (kisiSecim == KisiTipi.Musteri.ToString())
+                    if (kisiSecim == "1")
                     {
                         Musteri musteri = new Musteri();
 
@@ -90,7 +90,7 @@ namespace AdresDefteri
 
                         sonuc = adresDefteri.Ekle(musteri);
                     }
-                    else if (kisiSecim == KisiTipi.Personel.ToString())
+                    else if (kisiSecim == "2")
                     {
                         Personel personel = new Personel();
 
@@ -108,7 +108,7 @@ namespace AdresDefteri
 
                         sonuc = adresDefteri.Ekle(personel);
                     }
-                    else if (kisiSecim == KisiTipi.Paydas.ToString())
+                    else if (kisiSecim == "3")
                     {
                         Paydas paydas = new Paydas();
 
